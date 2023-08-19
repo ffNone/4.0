@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://phftj3elaxp6"]
+
+[ext_resource type="Script" path="res://Control.gd" id="1_xaaj8"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 13.0
+offset_top = -6.0
+offset_right = 1139.0
+offset_bottom = 644.0
+script = ExtResource("1_xaaj8")
+metadata/_edit_use_anchors_ = true
+
+[node name="email" type="LineEdit" parent="Control"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 214.0
+offset_right = 425.0
+offset_bottom = 245.0
+alignment = 1
+
+[node name="password" type="LineEdit" parent="Control"]
+layout_mode = 0
+offset_left = 449.0
+offset_top = 214.0
+offset_right = 611.0
+offset_bottom = 245.0
+text = " "
+
+[node name="signup" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 281.0
+offset_right = 484.0
+offset_bottom = 312.0
+text = "signup"
+
+[node name="login" type="Button" parent="Control"]
+layout_mode = 0
+offset_left = 404.0
+offset_top = 318.0
+offset_right = 484.0
+offset_bottom = 349.0
+text = "login"
+
+[connection signal="button_up" from="Control/signup" to="Control" method="_on_signup_button_up"]
+[connection signal="button_up" from="Control/login" to="Control" method="_on_login_button_up"]

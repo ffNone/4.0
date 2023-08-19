@@ -1,0 +1,47 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="New Game Project"
+run/main_scene="res://Control.tscn"
+config/features=PackedStringArray("4.0", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Firebase="*res://addons/godot-firebase/firebase/firebase.tscn"
+Gotm="*res://GDGotm-master/gotm/Gotm.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/godot-firebase/plugin.cfg", "res://addons/http-sse-client/plugin.cfg")
+
+[firebase]
+
+environment_variables/apiKey="AIzaSyDTjO3Y8I-qdlVExZB8flEfYFIrrrQYZmw"
+environment_variables/authDomain="dogs-f1916.firebaseapp.com"
+environment_variables/databaseURL=""
+environment_variables/projectId="dogs-f1916"
+environment_variables/storageBucket="dogs-f1916.appspot.com"
+environment_variables/messagingSenderId="592860985866"
+environment_variables/appId="1:592860985866:web:e819887ee449ddf9d77df3"
+environment_variables/measurementId="G-PYH2NE9CFL"
+environment_variables/clientId=""
+environment_variables/clientSecret=""
+environment_variables/domainUriPrefix=""
+environment_variables/functionsGeoZone=""
+environment_variables/cacheLocation=""
+emulators/ports/authentication=""
+emulators/ports/firestore=""
+emulators/ports/realtimeDatabase=""
+emulators/ports/functions=""
+emulators/ports/storage=""
+emulators/ports/dynamicLinks=""

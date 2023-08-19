@@ -1,0 +1,67 @@
+2a60927148abd1d33b818b535e306557
+::res://::1688440596
+Control.gd::GDScript::-1::1688438377::0::1::::<>Control<>::
+export_presets.cfg::TextFile::-1::1688440391::0::1::::<><>::
+icon.svg::CompressedTexture2D::9110260240746950164::1688434129::1688434147::1::::<><>::
+index.apple-touch-icon.png::CompressedTexture2D::2085723135383057080::1688440596::1688440605::1::::<><>::
+index.icon.png::CompressedTexture2D::6914635074442411195::1688440596::1688440605::1::::<><>::
+index.png::CompressedTexture2D::1075016783369013552::1688440596::1688440605::1::::<><>::
+node_2d.tscn::PackedScene::1067621330058073001::1688438635::0::1::::<><>::res://Control.gd
+override.cfg::TextFile::-1::1688438080::0::1::::<><>::
+::res://addons/::1688436522
+::res://addons/godot-firebase/::1688438090
+icon.svg::CompressedTexture2D::1932520971276548949::1688436521::1688436521::1::::<><>::
+override.cfg::TextFile::-1::1688438092::0::1::::<><>::
+plugin.cfg::TextFile::-1::1688436521::0::1::::<><>::
+plugin.gd::GDScript::-1::1688436522::0::1::::<>EditorPlugin<>::
+README.md::TextFile::-1::1688436521::0::1::::<><>::
+Utilies.gd::GDScript::-1::1688436521::0::1::::Utilities<>Node<>::
+::res://addons/godot-firebase/auth/::1688436521
+auth.gd::GDScript::-1::1688436521::0::1::::FirebaseAuth<>HTTPRequest<>::
+auth_provider.gd::GDScript::-1::1688436521::0::1::::AuthProvider<>RefCounted<>::
+user_data.gd::GDScript::-1::1688436521::0::1::::FirebaseUserData<>RefCounted<>::
+::res://addons/godot-firebase/auth/providers/::1688436521
+facebook.gd::GDScript::-1::1688436521::0::1::::FacebookProvider<>AuthProvider<>::
+github.gd::GDScript::-1::1688436521::0::1::::GitHubProvider<>AuthProvider<>::
+google.gd::GDScript::-1::1688436521::0::1::::GoogleProvider<>AuthProvider<>::
+twitter.gd::GDScript::-1::1688436521::0::1::::TwitterProvider<>AuthProvider<>::
+::res://addons/godot-firebase/database/::1688436521
+database.gd::GDScript::-1::1688436521::0::1::::FirebaseDatabase<>Node<>::
+database_store.gd::GDScript::-1::1688436521::0::1::::FirebaseDatabaseStore<>Node<>::
+reference.gd::GDScript::-1::1688436521::0::1::::FirebaseDatabaseReference<>Node<>::
+resource.gd::GDScript::-1::1688436521::0::1::::FirebaseResource<>Resource<>::
+::res://addons/godot-firebase/dynamiclinks/::1688436521
+dynamiclinks.gd::GDScript::-1::1688436521::0::1::::FirebaseDynamicLinks<>Node<>::
+::res://addons/godot-firebase/firebase/::1688436521
+firebase.gd::GDScript::-1::1688436521::0::1::::<>Node<>::
+firebase.tscn::PackedScene::6250566209717982510::1688436521::0::1::::<><>::res://addons/godot-firebase/database/database.gd<>res://addons/godot-firebase/firestore/firestore.gd<>res://addons/godot-firebase/firebase/firebase.gd<>res://addons/godot-firebase/auth/auth.gd<>res://addons/godot-firebase/storage/storage.gd<>res://addons/godot-firebase/dynamiclinks/dynamiclinks.gd<>res://addons/godot-firebase/functions/functions.gd
+::res://addons/godot-firebase/firestore/::1688436521
+firestore.gd::GDScript::-1::1688436521::0::1::::FirebaseFirestore<>Node<>::
+firestore_collection.gd::GDScript::-1::1688436521::0::1::::FirestoreCollection<>RefCounted<>::
+firestore_document.gd::GDScript::-1::1688436521::0::1::::FirestoreDocument<>RefCounted<>::
+firestore_query.gd::GDScript::-1::1688436521::0::1::::FirestoreQuery<>RefCounted<>::
+firestore_task.gd::GDScript::-1::1688436521::0::1::::FirestoreTask<>RefCounted<>::
+::res://addons/godot-firebase/functions/::1688436521
+functions.gd::GDScript::-1::1688436521::0::1::::FirebaseFunctions<>Node<>::
+function_task.gd::GDScript::-1::1688436521::0::1::::FunctionTask<>RefCounted<>::
+::res://addons/godot-firebase/storage/::1688436522
+storage.gd::GDScript::-1::1688436522::0::1::::FirebaseStorage<>Node<>::
+storage_reference.gd::GDScript::-1::1688436522::0::1::::StorageReference<>RefCounted<>::
+storage_task.gd::GDScript::-1::1688436522::0::1::::StorageTask<>RefCounted<>::
+::res://addons/http-sse-client/::1688436522
+HTTPSSEClient.gd::GDScript::-1::1688436522::0::1::::<>Node<>::
+HTTPSSEClient.tscn::PackedScene::-1::1688436522::0::1::::<><>::res://addons/http-sse-client/HTTPSSEClient.gd
+httpsseclient_plugin.gd::GDScript::-1::1688436522::0::1::::<>EditorPlugin<>::
+icon.png::CompressedTexture2D::8174176406931422455::1688436522::1688436522::1::::<><>::
+plugin.cfg::TextFile::-1::1688436522::0::1::::<><>::
+README.md::TextFile::-1::1688436522::0::1::::<><>::
+::res://ios_plugins/::1688436522
+::res://ios_plugins/godot_svc/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/ios-arm64_armv7/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.debug.xcframework/ios-arm64_x86_64-simulator/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/ios-arm64_armv7/::1688436522
+::res://ios_plugins/godot_svc/bin 3.x/godot_svc.release.xcframework/ios-arm64_x86_64-simulator/::1688436522
+::res://ios_plugins/godot_svc/src/::1688436522
